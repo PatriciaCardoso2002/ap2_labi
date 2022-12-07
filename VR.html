@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Realidades Digitais</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"> <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">RD</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <!-- MX é o alinahmento centralizado dos itens da nav bar. Para alinhar à esquerda, usar ME -->
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Home.html#rd">Realidades Digitais</a></li>
+                                    <li><a class="dropdown-item" href="Home.html#why">Motivação</a></li>
+                                    <li><a class="dropdown-item" href="Home.html#estatis">Estatística</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    AR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="AR.html#oquee">Definição</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#imple">Implementação</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#evol">Evolução</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#apl">Aplicações</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#mapa">Localidades</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    VR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="VR.html#definicao">Definição</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#implementacao">Implementação</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#evol">Evolução</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#apl">Aplicações</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#mapa">Localidades</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Acerca.html">Acerca</a>
+                            </li>
+                        </ul>
+                    </div>   
+                </div>    
+            </nav>
+        </header>
+       <!-- Entrada -->
+				 <main role="main" class="container">
+					<div class="starter-template">
+						<h2 class="font-weight-bold">Realidade Virtual</h2>
+						<p class="text">Um novo mundo digital à frente dos seus olhos</p>
+					</div>
+				</main> 
+
+		<!-- Definição-->
+			<section id="definicao" class="oquee">
+			<div class="row align-items-center container my-5 mx-auto">
+			<div class="row padding">
+				
+				<div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+					<h2>O QUE É A REALIDADE VIRTUAL?</h2>
+					<hr>
+					<p>A realidade virtual refere-se às tecnologias computacionais que usam software para gerar imagens, sons e outras sensações realísticas que replicam o mundo real.</p>
+					<p>A realidade virtual simula a presença física dos utilizadores, no ambiente criado, possibilitando a sua interação com o espaço virtual ou com qualquer objeto retratado nesse ambiente usando, para isso, ecrãs de exibição especializados, projetores ou outros dispositivos.</p>
+				</div>
+				<div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+					<img src="rv1.jpg" class="img-fluid" alt="Realidade Virtual">
+				</div>
+		</div>
+	</div>
+		</section>
+		<!--Implementação-->
+		<section id="implementacao" class="imple">
+			<div class="row align-items-center container my-5 mx-auto">
+			<div class="row padding">
+				<div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+					<img src="rv2.jpg" class="img-fluid" alt="Realidade Virtual">
+				</div>
+				<div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+					<h2>COMO FUNCIONA?</h2>
+					<hr>
+					<p>É essencial que exista algum dispositivo que permita a visualização do mundo virtual. Para isso, utilizam-se, mais frequentemente, os headsets. No entanto, também é possível visualizar o que está a acontecer na realidade simulada recorrendo a um projetor ou a um monitor de um computador.</p>
+					<p>Dependendo do objetivo de cada experiência virtual, podem ser necessários headphones/colunas ou luvas hápticas. As luvas hápticas possuem dispositivos eletrónicos que permitem a interação com os elementos do mundo virtual e sentir, por exemplo, as suas texturas.</p>
+				</div>
+				
+				
+		</div>
+	</div>
+		</section>
+			
+			<!--Evolução -->
+			<br>
+			<section id="evol" class="evolucao">
+				<h5 class="font-weight-bold">EVOLUÇÃO</h5>
+					
+				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="sensorama.jpg" class="d-block w-100" alt="Sensorama">
+						<div class="carousel-caption d-none d-md-block">
+						<h5>Anos 50 - Sensorama</h5>
+						<p>Criada por Morton Heilig e similar a uma cabine de teatro permitia a imersão total no filme.</p>
+					</div>
+				</div>
+						<div class="carousel-item">
+							<img src="nvb.jpg" class="d-block w-100" alt="Nintendo Virtual Boy">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>1995 - Nintendo Virtual Boy</h5>
+						<p>Primeira consola portátil a exibir gráficos tridimensionais.</p>
+					</div>
+				</div>
+						<div class="carousel-item">
+							<img src="gc.jpg" class="d-block w-100" alt="Google Cardboard">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>2014 - Google Cardboard</h5>
+							<p>Lançados pela Google, são uma plataforma de realidade virtual feita de papelão.</p>
+						</div>
+				</div>
+						<div class="carousel-item">
+							<img src="psvr.jpg" class="d-block w-100" alt="Playstation VR">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>2016 - Playstation VR</h5>
+							<p>Desenvolvida pela Sony, veio revolucionar o mundo da realidade virtual.</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+		
+		<!--Aplicações-->
+	<section id="apl" class="aplicacoes">
+
+
+<h5 class="font-weight-bold">APLICAÇÕES</h5>
+			<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card ">
+			<img src="combate.jpg" alt="Combate">
+            <div class="card-body">
+				<h6>Combate</h6>
+              <p class="card-text">Os militares e os seus médicos utilizam a VR para treinarem para as suas operações futuras.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="park.jpg" alt="Parques de Diversão">
+            <div class="card-body">
+				<h6>Parques de Diversões</h6>
+              <p class="card-text">A realidade virtual veio revolucionar a experiência dos visitantes nos parques de diversões.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+			<img src="med.jpg" alt="Medicina">
+            <div class="card-body">
+				<h6>Medicina</h6>
+              <p class="card-text">A VR é uma grande aliada na otimização de técnicas medicinais e na aprendizagem dos alunos.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="mars.jpg" alt="Mars VR">
+            <div class="card-body">
+				<h6>Mars VR</h6>
+              <p class="card-text">O projeto MarsVR recorre a técnicas especiais de fotogrametria para aceder e analisar áreas remotas do planeta.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="ent.jpg" alt="Entretenimento">
+            <div class="card-body">
+				<h6>Entretenimento</h6>
+              <p class="card-text">O aparecimento da realidade virtual intensificou a experiência dos jogadores de videogames.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="ed.jpg" alt="Educação">
+            <div class="card-body">
+				<h6>Educação</h6>
+              <p class="card-text">O setor da educação tem muito a ganhar com a implementação da realidade virtual no dia-a-dia escolar.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+		</div>
+	</div>
+	</div>
+</section>
+	<!--Mapa-->
+	<section class="mapa" id="mapa">
+            <div class="row align-items-center container my-5 mx-auto">
+                <div class="col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <h2>Principais localidades</h2>
+                    <hr>
+                    <p>A realidade virtual está continuamente a ser testada e otimizada por várias empresas ao redor do mundo.</p>
+                    <h5>DESCUBRA!</h5>
+                    <p>Utilize o mapa ao lado para navegar pelos principais atores revolucionários da realidade virtual. Experimente interagir com os ícones no mapa para saber mais.</p>
+
+                </div>
+                <div class="map col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <div id="oMeuMapa" class="oMeuMapa" ></div>
+                    <script type="text/javascript" src="mapv.js"></script>
+                    <span id="coordenadas"></span>
+                    
+
+                </div>
+            </div>
+        </section>
+         <!--Comentários-->
+        <div id="disqus_thread" class="disqus"></div>
+        <script>
+    
+            var disqus_config = function () {
+            this.page.identifier = '1234567';
+            };
+    
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://realidadesvirtuais.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<!--Footer-->
+		<section id="footer" class="footer">
+			<footer>
+			<div class="container-fluid padding">
+			<div class="row text-center">
+					<p class="nomes">Mauro Marques - Patrícia Cardoso</p>
+					<p class="uni">Universidade de Aveiro - Engenharia de Computadores e Telemática</p>
+			</div>
+			</div>
+			</footer>
+		
+		</section>
+		
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+		<script id="dsq-count-scr" src="//realidadesvirtuais.disqus.com/count.js" async></script>
+    </body>
+    
+</html>

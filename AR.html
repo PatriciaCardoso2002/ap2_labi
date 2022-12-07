@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Realidades Digitais</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css"> <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">RD</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <!-- MX é o alinahmento centralizado dos itens da nav bar. Para alinhar à esquerda, usar ME -->
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="Home.html#rd">Realidades Digitais</a></li>
+                                    <li><a class="dropdown-item" href="Home.html#why">Motivação</a></li>
+                                    <li><a class="dropdown-item" href="Home.html#estatis">Estatística</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    AR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="AR.html#oquee">Definição</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#imple">Implementação</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#evol">Evolução</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#apl">Aplicações</a></li>
+                                    <li><a class="dropdown-item" href="AR.html#mapa">Localidades</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    VR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="VR.html#definicao">Definição</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#implementacao">Implementação</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#evol">Evolução</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#apl">Aplicações</a></li>
+                                    <li><a class="dropdown-item" href="VR.html#mapa">Localidades</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Acerca.html">Acerca</a>
+                            </li>
+                        </ul>
+                    </div>   
+                </div>    
+            </nav>
+            
+            <div class="mid">
+                <div class="hero text-center">
+                    <h2 class="text">Realidade Aumentada</h2>
+                    <p class="text mx-auto">Uma experiência interativa que mistura o mundo virtual e o mundo real</p>
+                </div>
+            </div>
+            
+        </header>
+        
+        <section class="oquee" id="oquee">
+            <div class="row align-items-center container my-5 mx-auto">
+                <div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <h2>O que é Realidade Aumentada?</h2>
+                    <hr>
+                    <p>A RA é designada pela integração de elementos virtuais com o mundo real através de aparelhos capazes de mapear, filtrar, medir e adicionar itens virtuais num ambiente do mundo real. Na maioria das vezes, a realidade aumentada funciona com sensores que permitem esse tipo de interação, tais como câmaras, giroscópios, sensores de movimento, sensores infravermelhos e até sensores de calor, dependendo da sua aplicação.</p>
+                    <p>É uma experiência interativa e ampliada de um mundo onde a realidade e a imaginação se misturam. A experiência da realidade aumentada utiliza objetos e pessoas que existem no mundo real como pontos de partida para a criação de “acentuações” da realidade, permitindo assim que a tecnologia altere a perceção humana da realidade em vários sentidos, através de informação preceptiva gerada pelo computador, podendo ser visual, auditiva, háptica, somatossensorial e olfativa.</p>
+
+                </div>
+                <div class="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <img class="img-fluid" src="1.jpg" alt="Realidade Aumentada">
+                </div>
+            </div>
+        </section>
+        
+        <section class="imple" id="imple">
+            <div class="row align-items-center container my-5 mx-auto">
+                <div class="img col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <img class="img-fluid" src="flores.jpg" alt="Realidade Aumentada">
+                </div>
+                <div class="text col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <h2>COMO FUNCIONA?</h2>
+                    <hr>
+                    <p>
+                        Para que a realidade aumentada possa ser implementada, são necessários três componentes mínimos:
+                    </p>
+                    <p>
+                        I. Um ponto de referência no mundo real. Este pode conter, ou não, alguma marca (ou objeto) específica a ser interpretada pelo programa.
+                    </p>
+                    <p>
+                        II. Um dispositivo de captura e transmissão de imagem, noutras palavras, uma câmara, que será utilizada para possibilitar a interpretação virtual do mundo.
+                    </p>
+                    <p>
+                        III. Um software capaz de misturar estas informações e processá-las em tempo real.
+                    </p>
+                    <p>
+                        Munido de tais componentes, a câmara capta e transmite os sinais de imagem ao hardware responsável por interpretá-la. Assim que o ponto de referência é identificado, o software gera e posiciona o objeto virtual de acordo com o sinal de imagem que está a receber, e finalmente retorna uma imagem mista, composta pela realidade mostrada pela câmara e pelos objetos virtuais gerados por ele.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        
+        <section id="evol" class="evolucao">
+				<h2 class="font-weight-bold">EVOLUÇÃO</h2>
+					
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="2"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="fixtures.png" class="d-block w-100" alt="Sensorama">
+						<div class="carousel-caption d-none d-md-block">
+						<h5>1992 - Virtual Fixtures</h5>
+						<p>Tese de doutoramento de Louis Rosenberg. Permitia a imersão e o controlo remoto de um robô através de câmaras e sensores.</p>
+					</div>
+				</div>
+						<div class="carousel-item">
+							<img src="artoolkit.png" class="d-block w-100" alt="Nintendo Virtual Boy">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>2000 - ARToolKit</h5>
+						<p>Primeira biblioteca de software de código aberto criada para implementação de AR em navegadores de internet.</p>
+					</div>
+				</div>
+						<div class="carousel-item">
+							<img src="glass.png" class="d-block w-100" alt="Google Cardboard">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2013 - Google Glass</h5>
+                                <p>Lançado pela Google, o Google Glass contava com uma pequena tela de vidro para posicionar itens virtuais à frente dos olhos do utilizador.</p>
+                            </div>
+                        </div>
+						<div class="carousel-item">
+							<img src="pokemon.png" class="d-block w-100" alt="Playstation VR">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2016 - Pokemon GO</h5>
+                                <p>Desenvolvida pela Niantic em parceria com a Nintendo, Pokemon GO permite aos jogadores caçar criaturas virtuais no mundo real.</p>
+                            </div>
+                        </div>
+                    </div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</section>
+        
+        <section id="apl" class="apli">
+            <h2 class="font-weight-bold">APLICAÇÕES</h2>
+			 <div class="album py-5 bg-light">
+                 <div class="container">
+                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                         <div class="col">
+                             <div class="card">
+                                 <img src="arquitetura.jpg" alt="Combate">
+                                 <div class="card-body">
+                                     <h6>Arquitetura</h6>
+                                     <p class="card-text">Aplicação móvel do Ikea permite que os clientes visualizem virtualmente móveis nas suas casas antes de efetuarem a compra.</p>
+                                     <div class="d-flex justify-content-between align-items-center">
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="col">
+                             <div class="card">
+                                <img src="mikumi.png" alt="Parques de Diversão">
+                                <div class="card-body">
+				                    <h6>Música</h6>
+                                    <p class="card-text">Aliada do entretenimento, a Realidade Aumentada traz ao mundo real, grandes shows da cantora virtual, Hatsune Miku.</p>
+                                    <div class="d-flex justify-content-between align-items-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="jogosi.png" alt="Medicina">
+                                <div class="card-body">
+				                        <h6>Jogos</h6>
+                                        <p class="card-text">Aplicada aos jogos, a AR movimenta milhões de dólares na economia. O sucesso deve-se ao apelo de poder viver o impossível.</p>
+                                        <div class="d-flex justify-content-between align-items-center"></div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+	           </div>
+	       </div>
+        </section>
+        
+        <section class="mapa" id="mapa">
+            <div class="row align-items-center container my-5 mx-auto">
+                <div class="col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <h2>Principais localidades</h2>
+                    <hr>
+                    <p>A Realidade Aumentada ainda é uma tecnologia recente e, apesar de já poder ser encontrada em diversas aplicações digitais, algumas empresas e localidades no mundo estão se a tornar referência no desenvolvimento e aprimoramento desta tecnologia futurista.</p>
+                    <h5>DESCUBRA!</h5>
+                    <p>Utilize o mapa ao lado para navegar pelos principais atores revolucionários da realidade aumentada. Experimente interagir com os ícones no mapa para saber mais.</p>
+
+                </div>
+                <div class="map col-lg-6 col-md-6 col-12 pt-5 pb-5">
+                    <div id="oMeuMapa" class="oMeuMapa" ></div>
+                    <script type="text/javascript" src="map.js"></script>
+                    <span id="coordenadas"></span>
+                    
+
+                </div>
+            </div>
+        </section>
+        <div id="disqus_thread" class="disqus"></div>
+        <script>
+    
+            var disqus_config = function () {
+            this.page.identifier = 'site.disqus.realidadesvirtuais';
+            };
+    
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://realidadesvirtuais.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+        
+        <section id="footer" class="footer">
+			<footer>
+			<div class="container-fluid padding">
+			<div class="row text-center">
+					<p class="nomes">Mauro Marques - Patrícia Cardoso</p>
+					<p class="uni">Universidade de Aveiro - Engenharia de Computadores e Telemática</p>
+			</div>
+			</div>
+			</footer>
+		
+		</section>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script id="dsq-count-scr" src="//realidadesvirtuais.disqus.com/count.js" async></script>
+    </body>
+    
+</html>
